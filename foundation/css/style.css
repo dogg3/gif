@@ -1,0 +1,115 @@
+body, ul {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: #f9f9f9; }
+
+body .header {
+  background: #3c3c3c;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  body .header img {
+    height: 200px; }
+  body .header h2 {
+    font-style: small-caps;
+    font-family: futura;
+    text-align: center;
+    color: #e8e8e8; }
+  body .header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 50%;
+    list-style: none;
+    list-style-type: none;
+    font-style: Helvetica, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 1.5em; }
+    body .header ul a {
+      text-decoration: none;
+      color: #272727; }
+body .content1 {
+  display: flex;
+  background-color: #ececec;
+  justify-content: space-around;
+  align-items: center;
+  height: 340px; }
+  body .content1 div p {
+    text-align: center; }
+  body .content1 div .imgc {
+    display: flex;
+    justify-content: center; }
+    body .content1 div .imgc img {
+      height: 100px; }
+body .content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  background-color: #ececec; }
+  body .content3 .textContent3 h2 {
+    text-align: center;
+    font-family: futura;
+    font-size: 2em; }
+  body .content3 .textContent3 p {
+    width: 100%;
+    text-align: center;
+    font-family: Courier, monospace, sans-serif; }
+    body .content3 .textContent3 p span {
+      margin-top: 10px;
+      display: block; }
+    body .content3 .textContent3 p .regler {
+      font-weight: bold;
+      font-size: 1.2em; }
+  body .content3 form {
+    margin-top: 10 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    body .content3 form legend {
+      text-align: center;
+      font-size: 2em;
+      font-family: Helvetica, sans-serif;
+      margin-bottom: 20px;
+      font-family: helvetica; }
+    body .content3 form input {
+      text-align: center;
+      font-variant: small-caps;
+      font-family: futura;
+      margin-top: 8px;
+      width: 100%;
+      height: 20px; }
+    body .content3 form input.submit {
+      margin-top: 15px;
+      width: 50%; }
+body .content4 {
+  font-style: small-caps;
+  font-family: futura;
+  text-align: center;
+  color: #cacaca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px; }
+body footer.hej {
+  background-color: #3a3636;
+  padding: 20px; }
+  body footer.hej ul {
+    background-color: #3a3636;
+    width: 50px; }
+    body footer.hej ul a li {
+      list-style-type: none; }
+      body footer.hej ul a li img {
+        width: 50px; }
+
+/*# sourceMappingURL=style.css.map */

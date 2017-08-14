@@ -1,0 +1,87 @@
+body, ul {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: #f9f9f9; }
+
+body .header {
+  background: #f9f9f9;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px; }
+  body .header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 50%;
+    list-style: none;
+    list-style-type: none;
+    font-style: Helvetica, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 1.5em; }
+    body .header ul a {
+      text-decoration: none;
+      color: #272727; }
+body .content1 {
+  display: flex;
+  background-color: #ececec;
+  justify-content: space-around;
+  align-items: center;
+  height: 340px; }
+  body .content1 div p {
+    text-align: center; }
+  body .content1 div .imgc {
+    display: flex;
+    justify-content: center; }
+    body .content1 div .imgc img {
+      height: 100px; }
+body .content2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-image: url(img/bella.jpg);
+  background-color: #f9f9f9; }
+body .content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  background-image: url(img/bella.jpg);
+  background-color: #ececec; }
+  body .content3 .textContent3 p {
+    width: 300px;
+    text-align: center; }
+  body .content3 form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    body .content3 form legend {
+      text-align: center;
+      font-size: 2em;
+      font-family: Helvetica, sans-serif;
+      margin-bottom: 20px; }
+    body .content3 form input {
+      text-align: center;
+      margin-top: 8px;
+      width: 100%; }
+    body .content3 form input.submit {
+      margin-top: 15px;
+      width: 30%; }
+body footer.hej {
+  background-color: #3a3636;
+  padding: 20px; }
+  body footer.hej ul {
+    background-color: #3a3636;
+    width: 50px; }
+    body footer.hej ul a li {
+      list-style-type: none; }
+      body footer.hej ul a li img {
+        width: 50px; }
+
+/*# sourceMappingURL=style.css.map */
