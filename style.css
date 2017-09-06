@@ -13,9 +13,9 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
+/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.5.1/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
 */
 body:before {
   white-space: pre;
