@@ -1,6 +1,5 @@
 .sprite {
-  height: 160px;
-  width: 690px;
-  background-image: url("sprite.jpg"); }
-
-/*# sourceMappingURL=style.css.map */
+	height: 160px;
+	width: 690px;
+	background-image: url('sprite.jpg');
+}
